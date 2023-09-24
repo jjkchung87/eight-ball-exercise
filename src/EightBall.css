@@ -1,0 +1,20 @@
+.EightBall-msg {
+    color: white;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure the <p> takes up the entire height of the parent <div> */
+    margin: 0; /* Remove default margins for <p> */
+  }
+  
+  .EightBall {
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+    background-color: blue; /* Set the background color to your desired color */
+    border-radius: 50%; /* This makes the div circular */
+    text-align: center;
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center <p> horizontally */
+    align-items: center; /* Center <p> vertically */
+  }
+  
